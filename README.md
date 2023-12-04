@@ -25,6 +25,7 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 - fzf
 - mkcert
 - just
+- php
 
 ### Restart Terminal after that script!
 
