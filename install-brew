@@ -15,7 +15,10 @@ echo "------------------------\n\nInstalled formulae:\n-------------------\n" &&
 brew list --formulae -1
 
 echo "Setting up Node LTS\n";
-$(brew --prefix nvm)/nvm.sh
+
+export NVM_DIR="$(brew --prefix nvm)";
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh";
+
 nvm install node;
 nvm alias default node;
 nvm use node;
