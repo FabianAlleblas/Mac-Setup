@@ -71,7 +71,7 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/se
 For a better macOS usability like I'm used to it.
 #### Maybe do a restart after this script.
 
-# 6. [fasd](https://github.com/clvv/fasd) (optional)
+# 6. [fasd](https://github.com/clvv/fasd)
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/get-fasd)
 ```
