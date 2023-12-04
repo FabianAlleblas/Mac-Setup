@@ -23,9 +23,10 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 - tree
 - nvm
 - fzf
-- node
 - mkcert
 - just
+
+### Restart terminal after that script!
 
 # 2. Install apps
 
@@ -59,11 +60,19 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/co
 
 Copies the config for zsh, p10k and some aliases.
 
-# 5. Configure macOS
+### Close the Terminal and use iTerm after that script.
+
+# 5. Install node
+
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/install-node)
+```
+
+# 6. Configure macOS
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/setup-macos)
 ```
 
 For a better macOS usability like I'm used to it.
-Maybe do a restart after this script.
+#### Maybe do a restart after this script.
