@@ -51,7 +51,15 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/setup-iterm)
 ```
 
-# 4. Configure macOS
+# 4. Copy some config
+
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/copy-configs)
+```
+
+Copies the config for zsh, p10k and some aliases.
+
+# 5. Configure macOS
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/setup-macos)
