@@ -13,3 +13,11 @@ for x in go zsh git git-extras git-flow-avh antigen zsh-completions exa tree nvm
 brew install fzf && $(brew --prefix)/opt/fzf/install &&
 echo "------------------------\n\nInstalled formulae:\n-------------------\n" &&
 brew list --formulae -1
+
+echo "Setting up Node LTS\n";
+eval $(brew --prefix nvm)/nvm.sh
+nvm install node;
+nvm alias default node;
+nvm use node;
+echo "Installed Node Version:";
+node -v;

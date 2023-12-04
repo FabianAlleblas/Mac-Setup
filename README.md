@@ -62,13 +62,7 @@ Copies the config for zsh, p10k and some aliases.
 
 ### Close the Terminal and use iTerm after that script.
 
-# 5. Install node
-
-```sh
-zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/install-node)
-```
-
-# 6. Configure macOS
+# 5. Configure macOS
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/setup-macos)

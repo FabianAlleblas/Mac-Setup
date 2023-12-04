@@ -1,9 +1,0 @@
-#!/usr/bin/env zsh
-# Install latest version of node
-
-echo "Setting up Node LTS\n";
-nvm install node;
-nvm alias default node;
-nvm use node;
-echo "Installed Node Version:";
-node -v;
