@@ -1,0 +1,22 @@
+#!/usr/bin/env zsh
+# Install homebrew, then install formulae
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
+
+arch_name="$(uname -m)";
+if [ "${arch_name}" = "arm64" ]; then
+    echo "\n\nAdd homebrew shellenv for Mac with M1 chip:\n\n";
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/`echo $USER`/.zprofile;
+eval "$(/opt/homebrew/bin/brew shellenv)";
+fi
+
+for x in go zsh git git-extras git-flow-avh antigen zsh-completions exa tree nvm ddev just mkcert; do brew install $x; done;
+brew install fzf && $(brew --prefix)/opt/fzf/install &&
+echo "------------------------\n\nInstalled formulae:\n-------------------\n" &&
+brew list --formulae -1
+
+echo "Setting up Node LTS\n";
+nvm install node;
+nvm alias default node;
+nvm use node;
+echo "Installed Node Version:";
+node -v;

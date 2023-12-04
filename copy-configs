@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+# Copy configuration files
+curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/configs/.zshrc > ~/.zshrc;
+curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/configs/.aliases > ~/.aliases;
+curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/configs/.p10k.zsh > ~/.p10k.zsh;
