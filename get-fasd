@@ -7,7 +7,7 @@ tar -xzf fasd-1.0.1.tar.gz
 
 # Switch to the folder and install
 cd clvv-fasd-*
-make install
+sudo make install
 
 # Go back to the original directory
 cd ..
