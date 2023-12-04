@@ -26,8 +26,6 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 - mkcert
 - just
 
-### Restart terminal after that script!
-
 # 2. Install apps
 
 ```sh
