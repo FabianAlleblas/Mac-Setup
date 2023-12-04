@@ -19,8 +19,7 @@ echo "Setting up Node LTS\n";
 export NVM_DIR="$(brew --prefix nvm)";
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh";
 
-nvm install node;
-nvm alias default node;
-nvm use node;
+nvm install --lts;
+
 echo "Installed Node Version:";
 node -v;
