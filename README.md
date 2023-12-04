@@ -24,7 +24,6 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 - nvm
 - fzf
 - node
-- ddev
 - mkcert
 - just
 
@@ -43,6 +42,8 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 - firefox-developer-edition
 - google-chrome
 - adobe-acrobat-reader
+- docker
+- ddev
 
 # 3. Setup shell-integration for iTerm
 
