@@ -1,0 +1,17 @@
+#!/bin/zsh
+# Download the file
+curl -L -o fasd-1.0.1.tar.gz https://github.com/clvv/fasd/tarball/1.0.1
+
+# Unzip the file
+tar -xzf fasd-1.0.1.tar.gz
+
+# Switch to the folder and install
+cd clvv-fasd-*
+make install
+
+# Go back to the original directory
+cd ..
+
+# Remove the unzipped folder and the zipped file
+rm -r clvv-fasd-*
+rm fasd-1.0.1.tar.gz

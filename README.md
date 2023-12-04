@@ -70,3 +70,15 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/se
 
 For a better macOS usability like I'm used to it.
 #### Maybe do a restart after this script.
+
+# 6. [fasd](https://github.com/clvv/fasd) (optional)
+```sh
+zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/get-fasd)
+```
+
+# 7. Misc stuff
+
+### Install latest node version
+```sh
+nvm install --lts
+```
