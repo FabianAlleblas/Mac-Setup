@@ -5,6 +5,8 @@ You are welcome to use it, but it is designed for my requirements. So maybe you 
 
 # 1. Brew and the first tools.
 
+#### Start with the terminal that's included in MacOS, later switch to iTerm2.
+
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/install-brew)
 ```
