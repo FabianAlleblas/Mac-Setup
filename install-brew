@@ -9,7 +9,6 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/`echo $USER`/.zprofil
 eval "$(/opt/homebrew/bin/brew shellenv)";
 fi
 
-for x in go zsh git git-extras git-flow-avh antigen zsh-completions exa tree nvm just mkcert php; do brew install $x; done;
-brew install fzf && $(brew --prefix)/opt/fzf/install &&
+for x in go zsh git git-extras git-flow-avh antigen zsh-completions exa tree nvm just mkcert php; do brew install gum $x; done;
 echo "------------------------\n\nInstalled formulae:\n-------------------\n" &&
 brew list --formulae -1
