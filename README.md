@@ -5,7 +5,7 @@ You are welcome to use it, but it is designed for my requirements. So maybe you 
 
 # 1. Brew and the first tools.
 
-### Start with the terminal that's included in MacOS, later switch to iTerm2.
+#### Start with the terminal that's included in MacOS, later switch to iTerm2.
 
 ```sh
 zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/install-brew)
@@ -63,7 +63,7 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/co
 
 Copies the config for zsh, p10k and some aliases.
 
-### Close the Terminal and use iTerm after that script.
+#### Close the Terminal and use iTerm after that script.
 
 # 5. Configure macOS
 
@@ -72,7 +72,7 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/se
 ```
 
 For a better macOS usability like I'm used to it.
-### Maybe do a restart after this script.
+#### Maybe do a restart after this script.
 
 # 6. [fasd](https://github.com/clvv/fasd)
 ```sh
