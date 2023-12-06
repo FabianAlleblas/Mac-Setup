@@ -52,3 +52,10 @@ setopt extendedglob
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
+# Switch branches by searching the existing branches or using key words for searching.
+function gfco() {                                                               
+  value=${1:-}                                                                  
+  feature=$(git branch -r -l "*/feature/*" | sed "s/^[[:space:]]*\|[[:space:]]*$//g" | sed "s/^origin\///g" | gum filter --value=$value)
+  [ $? -eq 0 ] && git checkout $feature                                         
+}
