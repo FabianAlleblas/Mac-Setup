@@ -51,7 +51,4 @@ setopt extendedglob
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Enable fuzzy backwards search
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 source /opt/homebrew/opt/git-extras/share/git-extras/git-extras-completion.zsh
