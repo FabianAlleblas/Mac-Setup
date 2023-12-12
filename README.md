@@ -85,3 +85,7 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/ge
 ```sh
 nvm install --lts
 ```
+### Adjust behavior of git branch command
+```sh
+git config --global pager.branch false
+```
