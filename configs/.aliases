@@ -19,6 +19,3 @@ alias npmid="npm install -D"
 alias npmh="npm home"
 alias npmig="npm i -g"
 alias npmiy="npm init -y"
-
-# fzf
-alias fzfh="find * -type f | fzf" # fzf including hidden files
