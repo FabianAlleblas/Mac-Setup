@@ -21,7 +21,7 @@ zsh <(curl -s https://raw.githubusercontent.com/FabianAlleblas/Mac-Setup/main/in
 - git-flow-avh
 - antigen
 - zsh-completions
-- exa
+- eza
 - tree
 - nvm
 - fzf
