@@ -1,5 +1,5 @@
 # shell
-alias ls="exa"
+alias ls="eza"
 alias l="ls -l"
 alias ll="ls -la --group-directories-first"
 
